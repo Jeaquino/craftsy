@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Craftsy</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <script src="https://kit.fontawesome.com/b99d7ed5f9.js" crossorigin="anonymous"></script>
+      </head>
+      <body>
+        <header>
+          <img src="/img/logo.png" alt="Logo de Carftsy" />
+          <nav class="header__nav">
+            <ul class="lista__hacia_la_izquierda">
+              <li><a href="">SMARTPHONES</a></li>
+              <li><a href="">TABLETS</a></li>
+              <li><a href="">COMPUTADORAS</a></li>
+            </ul>
+            <ul class="lista__hacia__la__derecha">
+              <li><a href="./login">LOGIN</a></li>
+              <li><a href="./registro">REGISTRO</a></li>
+            </ul>
+          </nav>
+          <nav class="header__nav__mobile">
+            <i class="fa-solid fa-bars"></i>
+          </nav>
+        </header>
+    <main>
+        <fieldset>
+            <legend>Datos de registro</legend>
+            <form action="/registro" method="post">
+                <label for="nombre">Ingrese su nombre </label>
+                <input type="text" name="nombre">
+                <label for="apellido">Ingrese su apellido </label>
+                <input type="text" name="apellido">
+                <label for="email">Ingrese su email </label>
+                <input type="email" name="email" placeholder="debe un correo valido" required>
+                <label for="password">Ingrese un pasword </label>
+                <input type="password" name="password" placeholder="debe ingresar una mayuscula, una minuscula y un número" required>
+                <label for="nacionalidad"> Nacionalidad</label>
+                <select name="nacionalidad" id="">
+                    <option value="Arg">Argentina</option>
+                    <option value="Arg">Francia</option>
+                    <option value="Bra" selected>Brasil</option>
+                    <option value="Col">Colombia</option>
+                </select>
+                <button type="reset">Borrar</button>
+                <button type="submit">Registrarse</button>
+            </form>
+        </fieldset>
+
+    </main>
+</body>
+</html>
