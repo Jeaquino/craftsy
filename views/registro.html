@@ -25,27 +25,43 @@
             <i class="fa-solid fa-bars"></i>
           </nav>
         </header>
-    <main>
-        <fieldset>
-            <legend>Datos de registro</legend>
+    <main class="registro__main">
+        <fieldset class="registro__main">
+          <img src="/img/logo.png" alt="Logo de Carftsy" />
+          <h1>Crear cuenta</h1>
+          <p>
+            comprá más rápido y lleva el control de tus pedidos
+          </p>
             <form action="/registro" method="post">
+              <div>
                 <label for="nombre">Ingrese su nombre </label>
                 <input type="text" name="nombre">
+              </div>
+              <div>
                 <label for="apellido">Ingrese su apellido </label>
                 <input type="text" name="apellido">
+              </div>
+                <div>
                 <label for="email">Ingrese su email </label>
-                <input type="email" name="email" placeholder="debe un correo valido" required>
+                <input type="email" name="email" required>
+              </div>
+              <div>
                 <label for="password">Ingrese un pasword </label>
-                <input type="password" name="password" placeholder="debe ingresar una mayuscula, una minuscula y un número" required>
+                <input type="password" name="password" required>
+              </div>
+              <div>
                 <label for="nacionalidad"> Nacionalidad</label>
                 <select name="nacionalidad" id="">
-                    <option value="Arg">Argentina</option>
+                    <option value="Arg" selected>Argentina</option>
                     <option value="Arg">Francia</option>
-                    <option value="Bra" selected>Brasil</option>
+                    <option value="Bra" >Brasil</option>
                     <option value="Col">Colombia</option>
                 </select>
+              </div>
+              <div class="contenor_botones">
                 <button type="reset">Borrar</button>
                 <button type="submit">Registrarse</button>
+              </div>
             </form>
         </fieldset>
 
