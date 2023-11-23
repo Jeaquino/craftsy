@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const productControllers = {
     detailProduct:(req,res)=>{
         const televisor = {
@@ -18,6 +20,9 @@ const productControllers = {
         }else{
             res.send(televisor);
         }
+    },
+    createProduct:(req,res)=> {
+        const body = req.body;
     }
 }
 

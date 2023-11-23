@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "Julian Eduardo",
+        "apellido": "Aquino",
+        "email": "julian.eduardo.aquino@gmail.com",
+        "password": "asdqwe",
+        "nacionalidad": "Arg"
+    },
+    {
+        "nombre": "Ezequiel",
+        "apellido": "Calvo",
+        "email": "El-exe.calvo@gmail.com",
+        "password": "asdqwe",
+        "nacionalidad": "Arg"
+    },
+    {
+        "nombre": "Ale",
+        "apellido": "Ortiz",
+        "email": "ale.o@gmail.com",
+        "password": "asdqwe",
+        "nacionalidad": "Arg"
+    }
+]
